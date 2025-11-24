@@ -1,15 +1,18 @@
 
 const express = require('express');
 const app = express();
-const port = 5000;
+
 
 
 
 
 app.get('/', (req, res) => {
-  res.send('My Name is Awe Oluwadarasimi!');
+  res.send("Hello, CI/CD Students!");
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Example app listening at http://localhost:${port}`);
+// });
+
+
+module.exports = app;

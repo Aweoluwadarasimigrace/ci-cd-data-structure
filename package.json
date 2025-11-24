@@ -1,17 +1,29 @@
 {
   "name": "data-structure-class-level-5",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automating deploys",
   "main": "arr.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aweoluwadarasimigrace/ci-cd-data-structure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aweoluwadarasimigrace/ci-cd-data-structure/issues"
+  },
+  "homepage": "https://github.com/Aweoluwadarasimigrace/ci-cd-data-structure#readme"
 }
